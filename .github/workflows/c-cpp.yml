@@ -15,6 +15,9 @@ jobs:
     - uses: actions/checkout@v3
     - name: buildAndRun
       run: |
-        chmod 777 CompileAndRun.sh
-        ./CompileAndRun.sh
+        cmake -Bbuild
+        cmake --build build
+        cd build
+        ./main
+
 
