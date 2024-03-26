@@ -14,5 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: buildAndRun
-      run: ./CompileAndRun.sh
+      run: |
+        chmod 777 CompileAndRun.sh
+        ./CompileAndRun.sh
 
