@@ -2,7 +2,7 @@
 
 [TOC]
 
-
+![ubuntu-badge](https://github.com/beiklive/GtestLearn/workflows/C/C++%20CI/badge.svg)
 
 ## Usage
 
